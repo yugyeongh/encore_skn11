@@ -17,45 +17,20 @@ headers = [th.get_text(strip=True) for th in header.find_all("span", class_="bli
 # st.write(headers)
 
 body = soup.find_all("tbody")[0]
-# st.write(body)
+rows = body.find_all('tr')
 
 data = []
-
-for b in body.find_all("tr"):
-    rank = body.find('th').text.strip()
-    team = body.find('span', id=lambda x: x and x.startswith('team_')).text.strip()
-
-    for td in soup.find_all('td')[1:]:  # 첫 번째 td는 팀 이름이므로 제외
-        value = td.text.strip()
-        result.append(value)
-
-rows = [th.get_text(strip=True) for th in body.find_all("td")]
-# rows = soup.find_all("tr")[1:] # 첫 번째 tr
-st.write(rows)
-
-data = []
-row_data = []
-rank = 1
 for row in rows:
-    if row != '': 
-        row_data.append(row)
-    else:
-        if row_data != []:
-            data.append(row_data)
-            row_data = []
-        row_data.append(rank)
-        rank += 1
-st.write(data)
-print(len(headers))
-print(len(data))
-df = pd.DataFrame(data)
-st.write(df)
-st.write(headers)
-# df = pd.DataFrame(data, columns=headers)
+    cells = row.find_all(['th', 'td'])
+    row_data = []
+    for cell in cells:
+        row_data.append(cell.text.strip())
+    data.append(row_data)
 
-# st.write(df)
+df = pd.DataFrame(data, columns=headers)
+df.set_index('순위', inplace=True)
 
 
 st.header('2024 KBO 순위⚾️')
 st.divider()
-st.write(table)
+st.write(df)
