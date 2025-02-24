@@ -113,13 +113,176 @@
 
 # 3️⃣ 기술 스택
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white">
+  <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white">
+  <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
+  <img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=vscode&logoColor=white">
+  <img src="https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white">
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
+  <img src="https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white">
+  <img src="https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=Selenium&logoColor=white">
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white">
+  <img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white">
+<!--   <img src="https://img.shields.io/badge/Windows%2011-%230079d5.svg?style=for-the-badge&logo=Windows%2011&logoColor=white"> -->
+</p>
+
 <br/><br/>
 
 # 4️⃣ WBS
 
+<table>
+  <thead>
+    <td>대분류</td>
+    <td>중분류</td>
+    <td>상세업무</td>
+    <td>시작일</td>
+    <td>종료일</td>
+    <td>담당자</td>
+    <td>산출물</td>
+  </thead>
+  <tbody>
+    <tr>
+      <td>기획/설계</td>
+      <td>DB설계</td>
+      <td>논리모델설계</td>
+      <td>25.02.25</td>
+      <td>25.02.25</td>
+      <td>all</td>
+      <td>ERD</td>
+    </tr>
+    <tr>
+      <td>기획/설계</td>
+      <td>DB설계</td>
+      <td>논리모델설계</td>
+      <td>25.02.25</td>
+      <td>25.02.25</td>
+      <td>all</td>
+      <td>ERD</td>
+    </tr>
+    <tr>
+      <td>기획/설계</td>
+      <td>DB설계</td>
+      <td>논리모델설계</td>
+      <td>25.02.25</td>
+      <td>25.02.25</td>
+      <td>all</td>
+      <td>ERD</td>
+    </tr>
+    <tr>
+      <td>기획/설계</td>
+      <td>DB설계</td>
+      <td>논리모델설계</td>
+      <td>25.02.25</td>
+      <td>25.02.25</td>
+      <td>all</td>
+      <td>ERD</td>
+    </tr>
+    <tr>
+      <td>기획/설계</td>
+      <td>DB설계</td>
+      <td>논리모델설계</td>
+      <td>25.02.25</td>
+      <td>25.02.25</td>
+      <td>all</td>
+      <td>ERD</td>
+    </tr>
+    <tr>
+      <td>기획/설계</td>
+      <td>DB설계</td>
+      <td>논리모델설계</td>
+      <td>25.02.25</td>
+      <td>25.02.25</td>
+      <td>all</td>
+      <td>ERD</td>
+    </tr>
+    <tr>
+      <td>기획/설계</td>
+      <td>DB설계</td>
+      <td>논리모델설계</td>
+      <td>25.02.25</td>
+      <td>25.02.25</td>
+      <td>all</td>
+      <td>ERD</td>
+    </tr>
+    <tr>
+      <td>기획/설계</td>
+      <td>DB설계</td>
+      <td>논리모델설계</td>
+      <td>25.02.25</td>
+      <td>25.02.25</td>
+      <td>all</td>
+      <td>ERD</td>
+    </tr>
+  </tbody>
+</table>
+
 <br/><br/>
 
 # 5️⃣ 요구사항 명세서
+
+<table>
+  <thead>
+    <td>ID</td>
+    <td>업무구분[대]</td>
+    <td>업무구분[중]</td>
+    <td>업무구분[소]</td>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MBM-001</td>
+      <td>회원</td>
+      <td>로그인</td>
+      <td>소셜 로그인</td>
+    </tr>
+    <tr>
+      <td>MBM-001</td>
+      <td>회원</td>
+      <td>로그인</td>
+      <td>소셜 로그인</td>
+    </tr>
+    <tr>
+      <td>MBM-001</td>
+      <td>회원</td>
+      <td>로그인</td>
+      <td>소셜 로그인</td>
+    </tr>
+    <tr>
+      <td>MBM-001</td>
+      <td>회원</td>
+      <td>로그인</td>
+      <td>소셜 로그인</td>
+    </tr>
+    <tr>
+      <td>MBM-001</td>
+      <td>회원</td>
+      <td>로그인</td>
+      <td>소셜 로그인</td>
+    </tr>
+    <tr>
+      <td>MBM-001</td>
+      <td>회원</td>
+      <td>로그인</td>
+      <td>소셜 로그인</td>
+    </tr>
+    <tr>
+      <td>MBM-001</td>
+      <td>회원</td>
+      <td>로그인</td>
+      <td>소셜 로그인</td>
+    </tr>
+    <tr>
+      <td>MBM-001</td>
+      <td>회원</td>
+      <td>로그인</td>
+      <td>소셜 로그인</td>
+    </tr>
+  </tbody>
+</table>
 
 <br/><br/>
 
