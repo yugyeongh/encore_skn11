@@ -36,4 +36,48 @@ def test_find():
     print(tags)
     print(type(tags))
 
-test_find()
+# test_find()
+
+def test_selector():
+    # css의 선택자로 특정 태그 찾기
+    tag = bs.select_one('section#section2')
+    # print(tag)
+    # print(type(tag))
+
+    tags = bs.select('.section-content')
+    print(tags)
+    print(type(tags))
+# test_selector()
+
+def get_content():
+    # id가 section2인 section 태그의 자손 li 태그들을 추출
+    # 자식 요소: section#section2 > h2
+    # 후손 요소: section#section2 li
+    tags = bs.select('section#section2 li')
+    for tag in tags:
+        print(tag.text)
+# get_content()
+
+def get_content2():
+    # id가 section1인 section 태그의 자손h2태그의 '내용',p태그의 '내용' 출력
+    h2_tag = bs.select_one('section#section1>h2')
+    print('h2_tag: ', h2_tag.text)
+
+    p_tags = bs.select('section#section1>p')
+    for p_tag in p_tags:
+        print('p_text: ',p_tag.text)
+# get_content2()
+
+def get_content3():
+    # 자식태그 조회
+    section1_tag = bs.select_one('section#section1')
+    h2_tag = section1_tag.select_one('h2')
+    # print(h2_tag.text)
+
+    p_tags = section1_tag.select('p')
+    # print([p_tag.text for p_tag in p_tags])
+
+    children = section1_tag.findChildren()
+    print(children)
+get_content3()
+    
