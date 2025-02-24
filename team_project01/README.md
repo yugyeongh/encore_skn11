@@ -5,6 +5,45 @@
 > 팀 명: 오댕🍥 <br/>
 > 개발 기간: 2025.02.25 - 2025.02.26 <br/>
 
+### 🍀 팀원 소개
+
+<table>
+  <thead>
+    <td align="center">
+      <a href="">
+        <img src="width="150" alt="hojin"/><br /><hr/>
+        성호진
+      </a><br />
+    </td>
+    <td align="center">
+      <a href="">
+        <img src="" width="150" alt="junhee"/><br /><hr/>
+        신준희
+      </a><br />
+    </td>
+    <td align="center">
+      <a href="">
+        <img src="width="150" alt="minjung"/><br /><hr/>
+        이민정
+      </a><br />
+    </td>
+    <td align="center">
+      <a href="https://github.com/yugyeongh">
+        <img src="https://github.com/yugyeongh.png" width="150" alt="yugyeong"/><br /><hr/>
+        현유경
+      </a><br />
+    </td>
+    <td align="center">
+      <a href="">
+        <img src="" width="150" alt="chaeeun"/><br /><hr/>
+        이채은
+      </a><br />
+    </td>
+  </thead>
+</table>
+
+<br/><br/>
+
 ## 2️⃣ 프로젝트 개요
 
 ### 👤 프로젝트명 
@@ -40,14 +79,26 @@
   </tbody>
 </table>
 
+<br/><br/>
+
 ## 3️⃣ 기술 스택
+
+<br/><br/>
 
 ## 4️⃣ WBS
 
+<br/><br/>
+
 ## 5️⃣ 요구사항 명세서
+
+<br/><br/>
 
 ## 6️⃣ ERD
 
+<br/><br/>
+
 ## 7️⃣ 수행 결과 
+
+<br/><br/>
 
 ## 8️⃣ 한 줄 회고
