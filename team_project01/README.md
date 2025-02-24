@@ -79,6 +79,33 @@
   </tbody>
 </table>
 
+<table>
+  <thead>
+    <tr>
+      <td>
+        <a href="https://www.donga.com/news/article/all/20210204/105290040/1">
+          <img width="884" alt="image" src="https://github.com/user-attachments/assets/653f6513-3ab6-4d6a-adea-a09ca85589ef" />
+        </a>
+      </td>
+      <td>
+        <a href="https://www.inews24.com/view/1248987"> 
+          <img width="891" alt="image" src="https://github.com/user-attachments/assets/f25aea45-d45c-4334-aa3b-d88072d6f5c1" />
+        </a>
+      </td>
+      <td>
+        <a href="https://biz.heraldcorp.com/article/2231547">
+          <img width="580" alt="image" src="https://github.com/user-attachments/assets/66cc3537-4ffe-49b6-9182-50dde60716c0" />
+        </a>
+      </td>
+    </tr>
+  </thead>
+</table>
+
+
+
+
+
+
 <br/><br/>
 
 ## 3️⃣ 기술 스택
