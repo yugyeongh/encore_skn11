@@ -34,8 +34,8 @@
       </a><br />
     </td>
     <td align="center">
-      <a href="">
-        <img src="" width="150" alt="chaeeun"/><br /><hr/>
+      <a href="https://github.com/chaeeunlee05">
+        <img src="https://github.com/chaeeunlee05.png" width="150" alt="chaeeun"/><br /><hr/>
         이채은
       </a><br />
     </td>
