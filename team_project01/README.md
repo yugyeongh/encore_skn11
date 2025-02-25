@@ -16,13 +16,13 @@
       </a><br />
     </td>
     <td align="center">
-      <a href="">
-        <img src="" width="150" alt="junhee"/><br /><hr/>
+      <a href="https://github.com/HybuKimo">
+        <img src="https://github.com/HybuKimo.png" width="150" alt="junhee"/><br /><hr/>
         신준희
       </a><br />
     </td>
     <td align="center">
-      <a href="https://github.com/>minjung2266">
+      <a href="https://github.com/minjung2266">
         <img src="https://github.com/>minjung2266.png" width="150" alt="minjung"/><br /><hr/
         이민정
       </a><br />
