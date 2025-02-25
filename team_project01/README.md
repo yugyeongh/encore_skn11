@@ -10,8 +10,8 @@
 <table>
   <thead>
     <td align="center">
-      <a href="">
-        <img src="width="150" alt="hojin"/><br /><hr/>
+      <a href="https://github.com/DawnSurplus">
+        <img src="https://github.com/DawnSurplus.png" width="150" alt="hojin"/><br /><hr/>
         성호진
       </a><br />
     </td>
