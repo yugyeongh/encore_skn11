@@ -37,22 +37,52 @@ time.sleep(1)
 
 
 # 4. 스크롤 처리
-for _ in range(5): # 1초씩 쉬어가면서 5번 스크롤롤
+for _ in range(2): # 1초씩 쉬어가면서 5번 스크롤롤
     body = driver.find_element(By.TAG_NAME, 'body')
     body.send_keys(Keys.END)
     time.sleep(1) # 1초 쉬는 코드를 작성하지 않으면 제대로 코드가 작동 안 할 수 있음
 
 # 5. 특정 요소에 접근
-news_contents_elems = driver.find_elements(By.CSS_SELECTOR, '.news_contents')
-print(len(news_contents_elems))
+news_data = []
+news_area_elems = driver.find_elements(By.CSS_SELECTOR, '.news_area')
 
-for news_contents_elem in news_contents_elems:
+for news_area_elem in news_area_elems:
     # print(news_contents_elem)
     # print(type(news_contents_elems))
-    a_tag = news_contents_elem.find_element(By.CSS_SELECTOR, 'a.news_tit')
-    title = a_tag.text
-    href = a_tag.get_attribute('href')
-    print(title, '|', href)
+    news_info_elem = news_area_elem.find_element(By.CSS_SELECTOR, '.news_info')
+    news_contents_elem = news_area_elem.find_element(By.CSS_SELECTOR, '.news_contents')
+
+    info_elem = news_info_elem.find_elements(By.CSS_SELECTOR, 'a.info')
+
+    if len(info_elem) > 1 and '네이버뉴스' in info_elem[1].text:
+        a_tag = news_area_elem.find_element(By.CSS_SELECTOR, 'a.news_tit')
+        title = a_tag.text
+        href = a_tag.get_attribute('href')
+        # print(title, '|', href)
+
+        driver.execute_script('window.open("");') # 자바스크립트 코드 실행
+        driver.switch_to.window(driver.window_handles[1]) # 새롭게 열린 창으로 포커싱을 바꿔줌 -> 기존 창: 0번, 새로운 창: 1번
+        driver.get(href)
+        time.sleep(1)
+
+        content = driver.find_element(By.TAG_NAME, 'div').text
+
+        news_data.append({
+            'title': title,
+            'link': href,
+            'content': content
+        })
+
+        # driver.back()
+        driver.close()
+        driver.switch_to.window(driver.window_handles[0]) # 기존 탭으로 포커싱 바꿈
+        time.sleep(1)
+
+with open ('news_data.txt','w',encoding='utf-8') as file:
+    for news in news_data:
+        file.write(f'제목 {news['title']}\n')
+        file.write(f'링크 {news['link']}\n')
+        file.write(f'내용 {news['content']}\n')
 
 driver.quit()
 

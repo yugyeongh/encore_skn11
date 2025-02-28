@@ -8,3 +8,5 @@ connection = mysql.connector.connect(
 )
 
 connection.close()
+
+print('완료')
